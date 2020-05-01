@@ -1,0 +1,29 @@
+<!-- <p>product works!Hola</p>
+
+<p>
+    {{product | json}}
+</p>
+
+-->
+<div class="text-center">
+  <div class="card" *ngFor="let product of product">
+    <h5 class="card-title">{{product.descripcion}}</h5>
+    <img src="/assets/images/productos/{{product.codigo}}.jpg"   alt="..." width="30%" height="30%">
+    <div class="card-body">
+      <h5 class="card-title">{{product.descripcion}}</h5>
+      <p class="card-text">{{product.codigo}}</p>
+      <p class="card-text">{{product.categoria}}</p>
+      <p class="card-text">{{product.proveedor}}</p>
+      <p class="card-text">{{product.provDescr}}</p>
+      <p class="card-text">{{product.precio}}</p>
+      <p class="card-text"><small class="text-muted">Las imagenes tienen derechos de autor</small></p>
+      
+    </div>
+
+
+
+
+
+<button class="btn btn-danger" [routerLink]="['/products/categories', product.categoria]">Regresar</button>
+</div> 
+</div>  
