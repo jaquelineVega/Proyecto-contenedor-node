@@ -65,3 +65,4 @@ services:
         environment:
 
             - VIRTUAL_HOST=api.jaquelin.com
+            
