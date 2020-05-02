@@ -18,13 +18,13 @@ export default(CONFIG : any) => {
                 jwt.verify(bearerToken, CONFIG.TOKEN.SECRET_KEY, (err : any, tokenDecoded : any) => {
                     if (err) {
                         return res.status(APIStatusEnum.Forbidden).json(apiUtils.BodyResponse(APIStatusEnum.Forbidden,
-                        // Descripcion
+                        
                             'Acceso Prohibido al verificar el Token',
-                        // Mensaje
+            // Mensaje
                             'El Token proporcionado, no es un Token Válido. Favor de Verificar',
-                        // Result
+            // Result
                             {},
-                        // Error
+            // Error
                             err,))
                     }
                     req.body.authUser = tokenDecoded;
