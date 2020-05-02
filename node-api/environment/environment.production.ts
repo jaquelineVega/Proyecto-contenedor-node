@@ -14,8 +14,8 @@ export default {
     MONGODB: {
         HOST: '192.168.64.137',
         PORT: 27017,
-        USER_NAME: 'jacki',
+        USER_NAME: '',
         USER_PASSWORD: '1234',
-        DEFAULT_DATABASE: 'admin'
+        DEFAULT_DATABASE: 'dbMTWDM'
     }
 };

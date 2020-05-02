@@ -42,7 +42,7 @@ services:
 
         environment:
 
-            - VIRTUAL_HOST=app.jaquelin.com
+            - VIRTUAL_HOST=app.midominio.com
 
  
 
@@ -64,5 +64,4 @@ services:
 
         environment:
 
-            - VIRTUAL_HOST=api.jaquelin.com
-            
+            - VIRTUAL_HOST=api.midominio.com

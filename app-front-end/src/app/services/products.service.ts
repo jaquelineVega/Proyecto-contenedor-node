@@ -6,11 +6,11 @@ import { filter } from 'minimatch';
 import { Login } from '../models/models';
 
 const URL_PRODUCTS = 'assets/data/productos.json';
-const URL_LOGIN = 'http://api.jaquelin.com/login';
-const URL_PRODUCTOS = 'http://api.jaquelin.com/products2';
-const URL_PRODUCTOSCATEGORIAS = 'http://api.jaquelin.com/productCategoria2/';
-const URL_PRODUCTOSCRITERIO = 'http://api.jaquelin.com/search2/';
-const URL_PRODUCTOSCODE = 'http://api.jaquelin.com/productId/';
+const URL_LOGIN = 'http://api.midominio.com/login';
+const URL_PRODUCTOS = 'http://api.midominio.com/products2';
+const URL_PRODUCTOSCATEGORIAS = 'http://api.midominio.com/productCategoria2/';
+const URL_PRODUCTOSCRITERIO = 'http://api.midominio.com/search2/';
+const URL_PRODUCTOSCODE = 'http://api.midominio.com/productId/';
 
 @Injectable({ providedIn: 'root' })
 export class ProductsService {
